@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    "transform-regenerator",
+    "async-to-promises",
+    "transform-es2015-modules-commonjs",
+    "transform-es2015-destructuring",
+    "transform-es2015-parameters"
+  ]
+}

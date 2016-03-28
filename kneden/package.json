@@ -1,0 +1,22 @@
+{
+  "name": "kneden",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/babel --watch=./src --out-dir=./build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.7.4",
+    "babel-plugin-async-to-promises": "^1.0.4",
+    "babel-plugin-transform-es2015-destructuring": "^6.6.5",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
+    "babel-plugin-transform-es2015-parameters": "^6.7.0",
+    "babel-plugin-transform-regenerator": "^6.6.5",
+    "babel-polyfill": "^6.7.4"
+  }
+}

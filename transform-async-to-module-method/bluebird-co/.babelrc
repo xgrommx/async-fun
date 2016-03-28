@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    ["transform-async-to-module-method", {
+      "module": "bluebird-co",
+      "method": "coroutine"
+    }],
+    "transform-es2015-modules-commonjs",
+    "transform-es2015-destructuring",
+    "transform-es2015-parameters"
+  ]
+}
